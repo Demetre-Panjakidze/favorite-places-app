@@ -8,7 +8,7 @@ class PlacesScreen extends ConsumerStatefulWidget {
   const PlacesScreen({super.key});
 
   @override
-  ConsumerState<ConsumerStatefulWidget> createState() {
+  ConsumerState<PlacesScreen> createState() {
     return _PlacesScreenState();
   }
 }
